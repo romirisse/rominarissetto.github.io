@@ -15,7 +15,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
         {% if site.locale and site.locale != "" and site.locale != nil %} 
-		{% for link in site.data.navigation[site.locale].nav %}
+		<!-- {% if site.locale and site.locale == lang and site.locale != nil %}this line was replaced with next line for multilingual page-->
+        {% for link in site.data.navigation[site.locale].nav %}
           <li class="nav-item">
             {%- if link.url -%}
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
