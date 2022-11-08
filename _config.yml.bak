@@ -19,12 +19,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : Romina Rissetto
 email      : rprissetto@gmail.com #this is also the email contact forms will go to
 description: "Site description"
-author     : Your Name
+author     : Romina Rissetto
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
+
+##### this has been added for multilingual page
+##### https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c
+
+lang: en 
+languages: ["en", "es"] 
+permalink: /:categories/:year/:month/:day/:title/
+
+#####
 
 analytics:
   google: #Google Analytics tracking code here

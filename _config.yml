@@ -26,6 +26,15 @@ author     : Romina Rissetto
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
+##### this has been added for multilingual page
+##### https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c
+
+lang: en 
+languages: ["en", "es", "de"] 
+permalink: /:categories/:year/:month/:day/:title/
+
+#####
+
 analytics:
   google: #Google Analytics tracking code here
 
